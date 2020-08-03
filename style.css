@@ -3,6 +3,7 @@
        margin:0;
        padding: 0;
        border:0;
+       text-decoration: none;
 }
 #mainH2{
        font-family: 'Kaushan Script', cursive;
@@ -92,6 +93,11 @@ body{
 .menuMenu
 {
        border: 1px solid black;
+       padding: 5px 0;
+       height: 50px;
+       -moz-box-sizing: border-box;
+       -webkit-box-sizing: border-box;
+       box-sizing: border-box;
 }
 .menuItem
 {
@@ -154,6 +160,47 @@ body{
        color: red;
        text-shadow:
        4px 4px 1px #300000,
-       4px 6px 1px #400000;
-    
+       4px 6px 1px #400000;   
+}
+h3{
+       font-family: 'Amatic SC', cursive;
+       color:red;
+       font-size: 100px;
+       text-align: center;
+       margin-top: 20px;
+}
+.content{
+       width: 60%;
+       height: 300px;
+       background: linear-gradient(to top,  #fff,  #c4c4c4 );
+       margin-right: auto;
+       margin-left: auto;
+       margin-top: 30px;
+       text-decoration: none;
+       border: 1px solid #ffd4d4;
+       box-shadow: 0px 0px 50px red;
+}
+.contentImage{
+       background-color: red;
+       width:300px;
+       height: 300px;
+       text-decoration: none;
+}
+.header{
+       margin-left:  300px;
+       position: relative;
+       top:-300px;
+       text-decoration: none;
+       font-family: 'Underdog';
+       color: black;
+       font-size: 35px;
+}
+.description{
+       position: relative;
+       top:-300px;
+       text-decoration: none;
+       color: black;
+       margin-left:  300px;
+       font-family: 'Alegreya SC', serif;
+       font-size: 17ыpx;
 }
