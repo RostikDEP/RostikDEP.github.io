@@ -202,5 +202,27 @@ h3{
        color: black;
        margin-left:  300px;
        font-family: 'Alegreya SC', serif;
-       font-size: 17ыpx;
+       font-size: 15px;
+}
+.bannersLeft{
+       width: 220px;
+       height: 625px;
+       background: red;
+       position: absolute;
+       left:  10px;
+       margin-top: -501px;
+       z-index: -10;
+}
+.bloodyMoon{
+       transform: scale(1, -1);
+       margin-top:  -10px;
+}
+.bannersRight{
+       width: 220px;
+       height: 625px;
+       background: red;
+       position: absolute;
+       right:   10px;
+       margin-top: -501px;
+       z-index: -10;
 }
