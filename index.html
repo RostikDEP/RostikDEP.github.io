@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 	<title>RostikSATANA</title>
 	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="./style7.css">
@@ -10,32 +12,45 @@
 	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css2?family=Underdog&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> 
+
 </head>
 <body>
 
 <header class="menuMenu">
 	<h2 class="menuItem"  id="mainH2">SATANA  ╋ ✡</h2>
-	<a class="menuItemInterested"  href="#">Интересное</a>
-	<a class="menuItemAutor"  href="#">Основатель Братства</a>
-	<a class="menuItemMain"  href="#">Главная</a>
+	<div class="menuItems">
+		<a class="menuItemInterested" class="menuItemDisplayNone" href="#">Интересное </a>
+		<a class="menuItemAutor" class="menuItemDisplayNone" href="#">Основатель Братства</a>
+		<a class="menuItemMain" class="menuItemDisplayNone" href="#">Главная</a>
+	</div>
+	<div id="burger" class="menuItemsAbbreviated">
+		<h2>≡</h2>
+	</div>
+	<div id="burgerMenu" class="mobileMenu">
+		<a href="#"><div><h5>☨Главная☨</h4></div></a>
+		<a href="#"><div><h5>☩Интересное☩</h4></div></a>
+		<a href="#"><div><h5>♰Основатель Братства♰</h4></div></a>
+	</div>
 </header>
 <div class="color1">
-	<img width="335px" height="505" src="./satana.png"> 
-	<img width="335px" height="505" id="qw" src="./satana.png"> 
-	<h1 class="blood" id="youStana">✝Твой Сатана Здесь✝</h1>
+	<img class="qw2Adaptive" width="335px" height="505" id="qw1" src="./satana.png"> 
+	<img class="qw2Adaptive" width="335px" height="505" id="qw" src="./satana.png"> 
+	<h1 class="bloodH" id="youStana">✝Твой Сатана Здесь✝</h1>
 	<div id="info">
 		<h5 id="infoText">Еcли твои нервы не достаточно крепки советую покинуть сайт. Я не несу ответственность за твою убитую психику☠ На этом сайте останутся только сильнейшие... Да прибудет с нами сатана✡ Сайт повящаается теме сатанизма, мистики,культа и игр со страхом♚ Если ты желаешь вступить в наше братство произнеси клятву  братства >DEP KARDESH LIGININ TANRISINA BAGLILIK YEMIN EDERIM< Да возглавит нами сатана и великие DEPLALA HAZIR EDDIN</h5>
 	</div>
 </div>
-<h3>☨Интересное☨</h3>
+<h3 class="interestedLable">☨Интересное☨</h3>
 <div class="content">
-	<a href="#">
+	<a class="h4ct" href="QueenOfSpades.php">
 		<div class="contentImage">
-			<img width="300px" height="300px" src="./bi.gif">
+			<img width="300px" height="300px" src="./QueenOfSpades.png">
 		</div>
 		<h2 class="header">☩Пиковая дама☩</h2>
 		<div class="description">
-			<h4>
+			<h4 id="bobo">
 				Дама пик отождествляется как приносящая неудачи, её сравнивают с ведьмой.
 				Таким образом, пиковая дама стала, не только образом на игральной карте
 				а ещё и образом плохого, злого духа. Как вызвать Пиковую даму?
@@ -44,17 +59,25 @@
 				окажется дамой, а не духом желающим отомстить
 				за то что вы потревожили его покой. 
 			</h4>
+			<h4 class="descriptionMobile">
+				dama Дама пик отождествляется как приносящая неудачи, её сравнивают с ведьмой.
+				Таким образом, пиковая дама стала, не только образом на игральной карте
+				а ещё и образом плохого, злого духа. Как вызвать Пиковую даму?
+				Но помните, что вызов существа опасен
+			</h4>			
 		</div>
 	</a>
-		<div class="bannersLeft">
+		<div class="bannersLeft" >
 			<img width="220" src="./bloodyMoon.gif">
 			<img class="bloodyMoon" width="220" src="./bloodyMoon.gif">
 		</div>
-		<div class="bannersRight">
-			<img width="220" src="./bloodyMoon.gif">
+		<div class="bannersRight" >
+			<img width="220" src="/img/bloodyMoon.gif">
 			<img class="bloodyMoon" width="220" src="./bloodyMoon.gif">
 		</div>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="mainScript.js"></script>
 </body>
 </html>
