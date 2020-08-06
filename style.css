@@ -45,11 +45,6 @@ header{
        z-index: -5;
 
 }
-#youStana{
-       font-family: 'Pangolin', cursive;
-       text-align: center;
-       margin-top: -500px;
-       font-size: 60px;
 }
 .blood {
        color:red;
@@ -67,7 +62,22 @@ header{
        4px 24px 1px #D00000;
 
 }
+.bloodH {
+       color:red;
+       text-shadow:
+       4px 4px 1px #300000,
+       4px 6px 1px #400000,
+       4px 8px 1px #500000,
+       4px 10px 1px #600000,
+       4px 12px 1px #700000,
+       4px 14px 1px #800000,
+       4px 16px 1px #900000,
+       4px 18px 1px #A00000,       
+       4px 20px 1px #B00000,       
+       4px 22px 1px #C00000,       
+       4px 24px 1px #D00000;
 
+}
 #info{
        width: 580px;
        height: 340px;
@@ -186,18 +196,23 @@ h3{
        height: 300px;
        text-decoration: none;
 }
+
 .header{
        margin-left:  300px;
-       position: relative;
-       top:-300px;
+       margin-top:-300px;
        text-decoration: none;
        font-family: 'Underdog';
        color: black;
        font-size: 35px;
 }
 .description{
-       position: relative;
-       top:-300px;
+       text-decoration: none;
+       color: black;
+       margin-left:  300px;
+       font-family: 'Alegreya SC', serif;
+       font-size: 15px;
+}
+.descriptionMobile{
        text-decoration: none;
        color: black;
        margin-left:  300px;
@@ -210,12 +225,21 @@ h3{
        background: red;
        position: absolute;
        left:  10px;
-       margin-top: -501px;
+       margin-top: -200px;
        z-index: -10;
+}
+@font-fase{
+       font-family: Fear;
+       src:url(18700.ttf);
 }
 .bloodyMoon{
        transform: scale(1, -1);
        margin-top:  -10px;
+}
+#youStana{
+       font-family: 'Pangolin', cursive;
+       text-align: center;
+       margin-top: -500px;
 }
 .bannersRight{
        width: 220px;
@@ -223,6 +247,200 @@ h3{
        background: red;
        position: absolute;
        right:   10px;
-       margin-top: -501px;
+       margin-top: -200px;
        z-index: -10;
+}
+.QOScontent{
+       background-color: #fff;
+       width: 60%;
+       margin-left: auto;
+       margin-right: auto;
+}
+.menuItems{
+       margin-top:  -36px;
+}
+.menuItemsAbbreviated{
+       margin-top:  -36px;
+       position: fixed;
+       right: 0;
+       text-decoration: none;
+       background-color: #161616;
+       color:#fff;
+       margin-top: 7px;
+       margin-right:  10px;
+       font-size: 22px;
+       display: none;
+}
+.mobileMenu > a{
+       color:   #fff ;
+       font-family: 'PT Sans Narrow', sans-serif;
+       font-size: 60px;
+       text-align: center;
+       text-shadow:
+       4px 4px 1px #300000,
+       4px 6px 1px #400000,
+       4px 8px 1px #500000,
+       4px 10px 1px #600000;
+       font-family: 'Caveat';
+       padding-top:  -10px;
+}      
+.mobileMenu > a > div{
+       background:   black ;
+       width: 720px;
+       border: 1px solid #696969 ;      
+}
+.mobileMenu{
+       position: fixed;
+       right: 0;
+       display: none;
+}
+.descriptionMobile{
+       display: none;
+
+}
+.contentOnPage{
+       width: 60%;
+       background-color: #fff;
+       margin-left: auto;
+       margin-right: auto;
+}
+#queenOfSpadesH{
+       text-align: center;1
+       font-family: 'Pangolin';
+       font-size: 80px;
+       margin-top: -30px;
+}
+.contentOnPage{
+       margin-top: 20px;
+       clear: both;
+       border: 1px solid #fff;
+
+}
+.contentOnPage > img{
+       float: left;
+}
+.contentOnPage > h1{
+       font-family: 'Amatic SC', cursive;
+       font-size: 80px;
+       color:red;
+       text-shadow:
+       4px 4px 1px #300000,
+       4px 6px 1px #400000,
+       4px 8px 1px #500000,
+       4px 10px 1px #600000;
+}
+.contentOnPage > h5{
+       font-size: 16px;
+       font-family: 'Noto Serif', serif;
+       margin-left: 20px;
+       margin-right: 20px;
+}
+.contentOnPage > h4{
+       font-family: 'Amatic SC', cursive;
+       font-size: 60px;
+       color:red;
+       text-shadow:
+       4px 4px 1px #300000;  
+       text-align: center;  
+}
+.queenOfSpadesH{
+       font-family: 'Amatic SC', cursive;
+}
+@media screen and (max-width: 720px){
+       .bloodH{
+              font-size: 10%;
+              font-size: 30px;
+              text-align: center;
+       }
+       .color1{
+              margin-left: auto;
+              margin-right: auto;
+       }
+       #info{
+              width: 500px;
+       }
+       html{
+              margin-left: auto;
+              margin-right: auto;
+              width: 720px;
+              margin-top: 40px;
+       }
+       .menuMenu{
+             padding: 12px 0;
+             height: 110px; 
+             margin-top: -110px;
+       }
+       .menuItem{
+              font-size: 60px;
+       }
+       .menuItems{
+              display: none;
+       }
+       .menuItemsAbbreviated{
+              display: inline;
+              font-size: 60px;
+              width: 100px;
+              text-align: center;
+              margin-top: -10px;
+       }
+       #youStana{
+              font-size: 70px;
+              margin-top: -1060px;
+       }
+       #info{
+              margin-top: 980px;
+              width: 90%;
+       }
+       .qw2Adaptive{
+              margin-top: 10px;
+       }
+       #qw{
+              display: none;
+       }
+       .color1 > img{
+              width: 703px;
+              height: 1060px;
+       }
+       #infoText{
+              font-size: 47px;
+       }
+       .interestedLable{
+              margin-top: 870px;
+       }
+       .content{
+              width: 90%;
+       }
+       .banners{
+              display: none;
+       }
+       .bannersLeft{
+              display: none;
+       }
+       .bannersRight{
+              display: none;
+       }
+       .descriptionMobile{
+              font-size: 20px;
+              display: inline;
+       
+       }
+       #bobo{
+              display: none;
+       }
+       .contentOnPage{
+              width: 90%;
+       }
+       .contentOnPage > img{
+             width: 100%;
+             height: 100%; 
+       }
+       .contentOnPage > h5{
+              font-size: 25px;
+       }
+
+}
+@media screen and (min-width: 1200px){
+       #youStana{
+              font-size: 60px;
+       }
 }
